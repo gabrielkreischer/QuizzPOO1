@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Pergunta 01 -->
+    <string name="p01_pergunta">Quanto é 2+2?</string>
+    <string name="p01_a">4</string>
+    <string name="p01_b">6</string>
+    <string name="p01_c">8</string>
+    <string name="p01_d">10</string>
+    <string name="p01_certa">A</string>
+    <!-- Pergunta 02 -->
+    <string name="p02_pergunta">Quanto é 8*2?</string>
+    <string name="p02_a">4</string>
+    <string name="p02_b">6</string>
+    <string name="p02_c">8</string>
+    <string name="p02_d">16</string>
+    <string name="p02_certa">D</string>
+    //Pergunta 03/
+    <string name="p03_pergunta">Quanto é 2+2?</string>
+    <string name="p03_a">4</string>
+    <string name="p03_b">6</string>
+    <string name="p03_c">8</string>
+    <string name="p03_d">10</string>
+    <string name="p03_certa">A</string>
+    //Pergunta 04
+    <string name="p04_pergunta">Quanto é 2+2?</string>
+    <string name="p04_a">4</string>
+    <string name="p04_b">6</string>
+    <string name="p04_c">8</string>
+    <string name="p04_d">10</string>
+    <string name="p04_certa">A</string>
+    //Pergunta 05
+    <string name="p05_pergunta">Quanto é 2+2?</string>
+    <string name="p05_a">4</string>
+    <string name="p05_b">6</string>
+    <string name="p05_c">8</string>
+    <string name="p05_d">10</string>
+    <string name="p05_certa">A</string>
+    //Pergunta 06
+    <string name="p06_pergunta">Quanto é 2+2?</string>
+    <string name="p06_a">4</string>
+    <string name="p06_b">6</string>
+    <string name="p06_c">8</string>
+    <string name="p06_d">10</string>
+    <string name="p06_certa">A</string>
+    //Pergunta 07
+    <string name="p07_pergunta">Quanto é 2+2?</string>
+    <string name="p07_a">4</string>
+    <string name="p07_b">6</string>
+    <string name="p07_c">8</string>
+    <string name="p07_d">10</string>
+    <string name="p07_certa">A</string>
+    //Pergunta 08
+    <string name="p08_pergunta">Quanto é 2+2?</string>
+    <string name="p08_a">4</string>
+    <string name="p08_b">6</string>
+    <string name="p08_c">8</string>
+    <string name="p08_d">10</string>
+    <string name="p08_certa">A</string>
+    //Pergunta 09
+    <string name="p09_pergunta">Quanto é 2+2?</string>
+    <string name="p09_a">4</string>
+    <string name="p09_b">6</string>
+    <string name="p09_c">8</string>
+    <string name="p09_d">10</string>
+    <string name="p09_certa">A</string>
+    //Pergunta 10
+    <string name="p10_pergunta">Quanto é 2+2?</string>
+    <string name="p10_a">4</string>
+    <string name="p10_b">6</string>
+    <string name="p10_c">8</string>
+    <string name="p10_d">10</string>
+    <string name="p10_certa">A</string>
+
+</resources>

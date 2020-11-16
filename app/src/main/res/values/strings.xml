@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quizz POO</string>
+
+    <string name="desenvolvedor">Desenvolvido por:</string>
+    <string name="acertos">Acertos:</string>
+    <string name="erros">Erros:</string>
+    <string name="media">Média:</string>
+    <string name="numero_pergunta">Pergunta 01</string>
+    <string name="proximo">Próximo>></string>
+
+</resources>
