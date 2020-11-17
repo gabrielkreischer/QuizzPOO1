@@ -4,7 +4,9 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PerguntasERespostas extends AppCompatActivity {
+import java.io.Serializable;
+
+public class PerguntasERespostas extends AppCompatActivity implements Serializable {
     private String pergunta;
     private String respostaA;
     private String respostaB;
@@ -13,7 +15,7 @@ public class PerguntasERespostas extends AppCompatActivity {
     private String respostaCerta;
 
 
-    public PerguntasERespostas(String pergunta, String respostaA, String respostaB, String respostaC, String respostaD, String respostaCerta) {
+    public PerguntasERespostas(String pergunta, String respostaA, String respostaB, String respostaC, String respostaD, String respostaCerta){
         this.pergunta = pergunta;
         this.respostaA = respostaA;
         this.respostaB = respostaB;
@@ -72,5 +74,6 @@ public class PerguntasERespostas extends AppCompatActivity {
     public void setRespostaCerta(String respostaCerta) {
         this.respostaCerta = respostaCerta;
     }
+
 
 }
