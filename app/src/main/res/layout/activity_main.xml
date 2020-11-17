@@ -79,7 +79,7 @@
             android:layout_weight="1"
             android:gravity="right"
             android:text="TextView"
-            android:textColor="@color/vermelha" />
+            android:textColor="@color/erro" />
 
         <TextView
             android:id="@+id/txtAcertos"
@@ -128,7 +128,6 @@
                     android:layout_height="wrap_content"
                     android:text="RadioButton"
                     android:textColor="@color/white"
-                    android:textColorHint="@color/cinza_claro"
                     app:buttonTint="@color/white" />
 
                 <RadioButton
@@ -146,7 +145,6 @@
                     android:layout_height="wrap_content"
                     android:text="RadioButton"
                     android:textColor="@color/white"
-                    android:textColorHint="@color/cinza_claro"
                     app:buttonTint="@color/white" />
 
                 <RadioButton
@@ -155,7 +153,7 @@
                     android:layout_height="wrap_content"
                     android:text="RadioButton"
                     android:textColor="@color/white"
-                    android:textColorHint="@color/cinza_claro"
+
                     app:buttonTint="@color/white" />
             </RadioGroup>
 
@@ -164,7 +162,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Próximo"
-                app:backgroundTint="@color/verde_camurca" />
+                app:backgroundTint="@color/teal_700" />
         </LinearLayout>
     </ScrollView>
 

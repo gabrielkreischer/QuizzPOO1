@@ -3,14 +3,22 @@ package com.gabrielkreischer.quizzpoo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
 
 public class MainActivity extends AppCompatActivity {
+    String nome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Recupera o Intent
+        Intent intent = getIntent();
+        nome = (String) intent.getSerializableExtra("nome");
+        Log.d("Teste", nome);
 
         // cria as perguntas
         PerguntasERespostas perguntasERespostas1 = new PerguntasERespostas(
