@@ -137,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:text="RadioButton"
                     android:textColor="@color/white"
-                    android:textColorHint="@color/cinza_claro"
+                    android:textColorHint="#FFFFFF"
                     app:buttonTint="@color/white" />
 
                 <RadioButton

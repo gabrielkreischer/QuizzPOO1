@@ -16,60 +16,60 @@
     <string name="p02_d">16</string>
     <string name="p02_certa">D</string>
     //Pergunta 03/
-    <string name="p03_pergunta">Quanto é 2+2?</string>
+    <string name="p03_pergunta">Quanto é 4+2?</string>
     <string name="p03_a">4</string>
     <string name="p03_b">6</string>
     <string name="p03_c">8</string>
     <string name="p03_d">10</string>
-    <string name="p03_certa">A</string>
+    <string name="p03_certa">B</string>
     //Pergunta 04
-    <string name="p04_pergunta">Quanto é 2+2?</string>
-    <string name="p04_a">4</string>
-    <string name="p04_b">6</string>
-    <string name="p04_c">8</string>
+    <string name="p04_pergunta">Quanto é 20+30?</string>
+    <string name="p04_a">35</string>
+    <string name="p04_b">55</string>
+    <string name="p04_c">50</string>
     <string name="p04_d">10</string>
-    <string name="p04_certa">A</string>
+    <string name="p04_certa">C</string>
     //Pergunta 05
-    <string name="p05_pergunta">Quanto é 2+2?</string>
-    <string name="p05_a">4</string>
-    <string name="p05_b">6</string>
-    <string name="p05_c">8</string>
-    <string name="p05_d">10</string>
-    <string name="p05_certa">A</string>
+    <string name="p05_pergunta">Quanto é 9*9?</string>
+    <string name="p05_a">18</string>
+    <string name="p05_b">1</string>
+    <string name="p05_c">99</string>
+    <string name="p05_d">89</string>
+    <string name="p05_certa">D</string>
     //Pergunta 06
-    <string name="p06_pergunta">Quanto é 2+2?</string>
-    <string name="p06_a">4</string>
-    <string name="p06_b">6</string>
-    <string name="p06_c">8</string>
-    <string name="p06_d">10</string>
+    <string name="p06_pergunta">Quanto é o resto da divisão de 25/10?</string>
+    <string name="p06_a">5</string>
+    <string name="p06_b">2</string>
+    <string name="p06_c">20</string>
+    <string name="p06_d">250</string>
     <string name="p06_certa">A</string>
     //Pergunta 07
-    <string name="p07_pergunta">Quanto é 2+2?</string>
-    <string name="p07_a">4</string>
-    <string name="p07_b">6</string>
-    <string name="p07_c">8</string>
-    <string name="p07_d">10</string>
-    <string name="p07_certa">A</string>
+    <string name="p07_pergunta">Quanto é 89+1?</string>
+    <string name="p07_a">80</string>
+    <string name="p07_b">90</string>
+    <string name="p07_c">100</string>
+    <string name="p07_d">110</string>
+    <string name="p07_certa">B</string>
     //Pergunta 08
-    <string name="p08_pergunta">Quanto é 2+2?</string>
-    <string name="p08_a">4</string>
-    <string name="p08_b">6</string>
-    <string name="p08_c">8</string>
-    <string name="p08_d">10</string>
+    <string name="p08_pergunta">Quanto é a raiz quadrada de 4?</string>
+    <string name="p08_a">2</string>
+    <string name="p08_b">3</string>
+    <string name="p08_c">4</string>
+    <string name="p08_d">1</string>
     <string name="p08_certa">A</string>
     //Pergunta 09
-    <string name="p09_pergunta">Quanto é 2+2?</string>
-    <string name="p09_a">4</string>
-    <string name="p09_b">6</string>
-    <string name="p09_c">8</string>
-    <string name="p09_d">10</string>
-    <string name="p09_certa">A</string>
+    <string name="p09_pergunta">Quanto é 2*1999?</string>
+    <string name="p09_a">2001</string>
+    <string name="p09_b">3001</string>
+    <string name="p09_c">4000</string>
+    <string name="p09_d">3998</string>
+    <string name="p09_certa">D</string>
     //Pergunta 10
-    <string name="p10_pergunta">Quanto é 2+2?</string>
-    <string name="p10_a">4</string>
-    <string name="p10_b">6</string>
-    <string name="p10_c">8</string>
-    <string name="p10_d">10</string>
-    <string name="p10_certa">A</string>
+    <string name="p10_pergunta">Em um circulo que possui o raio de 2cm qual é o seu diâmetro ?</string>
+    <string name="p10_a">6cm</string>
+    <string name="p10_b">6.75cm</string>
+    <string name="p10_c">4cm</string>
+    <string name="p10_d">8cm</string>
+    <string name="p10_certa">C</string>
 
 </resources>

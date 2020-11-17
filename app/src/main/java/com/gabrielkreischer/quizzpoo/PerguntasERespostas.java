@@ -2,7 +2,9 @@ package com.gabrielkreischer.quizzpoo;
 
 import android.widget.ImageView;
 
-public class Pergunta {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class PerguntasERespostas extends AppCompatActivity {
     private String pergunta;
     private String respostaA;
     private String respostaB;
@@ -11,7 +13,7 @@ public class Pergunta {
     private String respostaCerta;
 
 
-    public Pergunta(String pergunta, String respostaA, String respostaB, String respostaC, String respostaD, String respostaCerta) {
+    public PerguntasERespostas(String pergunta, String respostaA, String respostaB, String respostaC, String respostaD, String respostaCerta) {
         this.pergunta = pergunta;
         this.respostaA = respostaA;
         this.respostaB = respostaB;
@@ -22,7 +24,6 @@ public class Pergunta {
 
 
     // Gets ////////////////////////////////////////////////////////////////////////////////////////
-
     public String getPergunta() {
         return pergunta;
     }
@@ -48,8 +49,6 @@ public class Pergunta {
     }
 
     // Sets ////////////////////////////////////////////////////////////////////////////////////////
-
-
     public void setPergunta(String pergunta) {
         this.pergunta = pergunta;
     }
@@ -73,4 +72,5 @@ public class Pergunta {
     public void setRespostaCerta(String respostaCerta) {
         this.respostaCerta = respostaCerta;
     }
+
 }
