@@ -126,6 +126,7 @@
                     android:id="@+id/opc01"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="habilitaBotao"
                     android:text="RadioButton"
                     android:textColor="@color/white"
                     app:buttonTint="@color/white" />
@@ -134,6 +135,7 @@
                     android:id="@+id/opc02"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="habilitaBotao"
                     android:text="RadioButton"
                     android:textColor="@color/white"
                     android:textColorHint="#FFFFFF"
@@ -143,6 +145,7 @@
                     android:id="@+id/opc03"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="habilitaBotao"
                     android:text="RadioButton"
                     android:textColor="@color/white"
                     app:buttonTint="@color/white" />
@@ -151,9 +154,10 @@
                     android:id="@+id/opc04"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="habilitaBotao"
                     android:text="RadioButton"
-                    android:textColor="@color/white"
 
+                    android:textColor="@color/white"
                     app:buttonTint="@color/white" />
             </RadioGroup>
 

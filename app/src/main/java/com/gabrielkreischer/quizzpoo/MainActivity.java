@@ -6,10 +6,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-    String nome;
+    TextView txtNumeroPergunta;
+    TextView txtErros;
+    TextView txtAcertos;
+    TextView txtPergunta;
+    RadioButton opc01;
+    RadioButton opc02;
+    RadioButton opc03;
+    RadioButton opc04;
+    Button proximo;
+    int contador = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
         //Recupera o Intent
         Intent intent = getIntent();
-        nome = (String) intent.getSerializableExtra("nome");
+        String nome = (String) intent.getSerializableExtra("nome");
         Log.d("Teste", nome);
+
+        // Cria o objeto Jogador
+        Jogador jogador = new Jogador(nome,0,0,0);
 
         // cria as perguntas
         PerguntasERespostas perguntasERespostas1 = new PerguntasERespostas(
@@ -102,5 +119,29 @@ public class MainActivity extends AppCompatActivity {
                 getString(R.string.p10_d),
                 getString(R.string.p10_certa)
         );
+
+        // atribui valores a interfacie
+        txtNumeroPergunta = findViewById(R.id.txtNumeroPergunta);
+        txtErros = findViewById(R.id.txtErros);
+        txtAcertos = findViewById(R.id.txtAcertos);
+        txtPergunta = findViewById(R.id.txtPergunta);
+        opc01 = findViewById(R.id.opc01);
+        opc02 = findViewById(R.id.opc02);
+        opc03 = findViewById(R.id.opc03);
+        opc04 = findViewById(R.id.opc04);
+        proximo = findViewById(R.id.btnPergunta);
+
+        txtNumeroPergunta.setText("Pergunta 0"+Integer.toString(contador));
+        txtErros.setText("Erros 0"+Integer.toString(jogador.getErros()));
+        txtAcertos.setText("Acertos 0"+Integer.toString(jogador.getAcertos()));
+        txtPergunta.setText(perguntasERespostas1.getPergunta());
+        opc01.setText(perguntasERespostas1.getRespostaA());
+        opc02.setText(perguntasERespostas1.getRespostaB());
+        opc03.setText(perguntasERespostas1.getRespostaC());
+        opc04.setText(perguntasERespostas1.getRespostaD());
+        proximo.setEnabled(false);
+    }
+    public void habilitaBotao(View view){
+        proximo.setEnabled(true);
     }
 }

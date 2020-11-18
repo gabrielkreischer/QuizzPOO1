@@ -8,7 +8,7 @@ public class TelaFinal   extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.splash01);
+        setContentView(R.layout.resultado);
 
 
     }
