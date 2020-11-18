@@ -75,5 +75,13 @@ public class PerguntasERespostas extends AppCompatActivity implements Serializab
         this.respostaCerta = respostaCerta;
     }
 
+    //Verifica se a resposta do usuário está correta
 
+    public boolean verificaResposta(String resposta){
+        if (resposta.toString() == this.respostaCerta.toString()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
